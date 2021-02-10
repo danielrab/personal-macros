@@ -131,7 +131,7 @@ async function main() {
       formula,
       results,
       description: encloseInDiv(htmliseParagraphs(tableDescription.trim())),
-      img: cardsMode? 'systems/swade/assets/ui/wildcard.svg': '',
+      img: cardsMode? 'systems/swade/assets/ui/wildcard.svg': 'icons/svg/d20-grey.svg',
     };
     let i = 0;
     for (let row = 1; row < table.length; row += 1) {
